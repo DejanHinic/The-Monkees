@@ -1,0 +1,203 @@
+.jumbotron {
+  background-image: url("https://ichef.bbci.co.uk/images/ic/960x540/p01bqr6v.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 50px;
+  padding: 0;
+  background-size: cover;
+ }
+ 
+
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 500;
+  
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-default {
+    border-color: transparent;
+   
+}
+
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  
+}
+.img-fluid{
+    width:100%;
+    height: 100%;
+    border:none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.content_grid_item_title {
+    font-size: 1.5vw;
+    position: absolute;
+    display: block;
+    width: auto;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    line-height: 110%;
+    font-family: 'Ultra', serif;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    text-shadow: 0px 0px 6px #000;
+    padding: 0 !important;
+    margin: 0;
+    border-top: solid 2px #FFFFFF;
+    border-bottom: solid 2px #FFFFFF;
+    transition-duration: 0.5s;
+}
+.nopadding > div[class^="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.bd-example > div[class^="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+#top-row{
+  max-height: 500px;
+}
+.list-inline {
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 0;
+  
+}
+footer {
+  margin-top: 8%;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  footer {
+     margin-top: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+h1,h2 {
+     
+   font-size: 40px;
+  font-weight: 400;
+     
+  }
+}
+
+
+
+.img{
+  
+  max-width: -webkit-fill-available;
+  height: auto;
+}
+.bd-example img {
+  max-height: -webkit-fill-available;
+}
+
+
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  
+  transition: all .4s ease-in-out;
+}
+
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+   transition: all .4s ease-in-out;
+}
+h1:hover, h1:active {
+  transform: scale(1.1);
+  
+  font-size: 90px;
+}
+h2:hover, h2:active {
+  transform: scale(1.1);
+  
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+   transition: all .4s ease-in-out;
+   
+}
+
+h3:hover, h3:active {
+  transform: scale(1.1);
+  
+  font-size: 40px;
+}
+
+#social-color a {
+  color:white;
+  transition: all .4s ease-in-out;
+}
+#social-color a:hover {
+  color:#007bff;
+  transform: scale(1.1);
+  font-size: 120px;
+}
+
+/*-------------------------------------------------------multimedia style*/
+
+#spotify-style {
+  background-color: #ffbf43;
+  text-align: center;
+  padding-top: 60px;
+}
+#podcast-style{
+   background-color: #6dcdff;
+   text-align: center;
+}
+#podcast-style-2{
+   background-color: #67cc7b;
+   text-align: center;
+}
+
+#multimedia-body{
+  background-color: #cccccc;
+}
+
+#about-body {
+      background-color: antiquewhite;
+}
+
+
+#pic-top{
+  text-align: center;
+  height: 500px;
+}
+.card-img-top{
+  height: 250px;
+}
+#bio-row-style{
+  margin-left: 11%;
+    margin-bottom: 6%;
+    margin-top: 3%;
+}
+
+.text-center {
+  text-align: center;
+}
